@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GENESIS AI: Deterministic DNA Encoding & Archival Platform for Long-Term Data Preservation.">
+    <meta name="author" content="Dhruv Aggarwal, Ryan Ghatak">
+    <meta name="theme-color" content="#030712">
+    
+    <title>GENESIS // DNA Digital Data Storage Console</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="genesis-app-shell">
+        
+        <header class="genesis-core-header" role="banner">
+            <div class="header-identity">
+                <div class="pulse-indicator-node" aria-label="System Online"></div>
+                <div class="brand-text-block">
+                    <span class="brand-title">GEN-DRIVE</span>
+                    <span class="brand-subtitle">GENESIS AI MOLECULAR STORAGE INTERFACE</span>
+                </div>
+            </div>
+            
+            <div class="academic-credits-badge">
+                <span class="credits-primary">SCIENCE FEST - 2026</span>
+                <span class="credits-secondary">RESEARCH ARCHITECTS: Dhruv Aggarwal & Ryan Ghatak</span>
+            </div>
+        </header>
+
+        <nav class="genesis-navigation-bar" role="tablist" aria-label="Main System Navigation">
+            <button class="nav-link active" data-target="home-view" role="tab" aria-selected="true">
+                <span class="nav-icon">🏠</span> SYSTEM PORTAL
+            </button>
+            <button class="nav-link" data-target="converter-view" role="tab" aria-selected="false">
+                <span class="nav-icon">🧬</span> DNA CORE CONVERTER
+            </button>
+            <button class="nav-link" data-target="ai-view" role="tab" aria-selected="false">
+                <span class="nav-icon">🤖</span> AI RESEARCH ASSISTANT
+            </button>
+            <button class="nav-link" data-target="about-view" role="tab" aria-selected="false">
+                <span class="nav-icon">🔬</span> ARCHIVAL RESEARCH BRIEF
+            </button>
+            <button class="nav-link" data-target="references-view" role="tab" aria-selected="false">
+                <span class="nav-icon">📚</span> REFERENCE SHELF
+            </button>
+        </nav>
+
+        <main class="genesis-view-viewport">
+
+            <section id="home-view" class="view-panel active" role="tabpanel">
+                <div class="homepage-hero-grid">
+                    
+                    <div class="homepage-text-card">
+                        <div class="welcome-badge">SYSTEM SECURITY CLEARANCE AUTHORIZED</div>
+                        <h1 class="homepage-main-title">WELCOME TO THE GENESIS ARCHIVAL TERMINAL</h1>
+                        <p class="homepage-lead-p">
+                            An advanced bio-informatic workspace processing synthetic nucleotide data streams. This terminal bridges artificial digital matrices with long-term chemical preservation pipelines to combat the global data degradation crisis.
+                        </p>
+                        
+                        <div class="homepage-quick-stats-grid">
+                            <div class="stat-mini-box">
+                                <span class="stat-label">System State</span>
+                                <span class="stat-value text-cyan">OPERATIONAL</span>
+                            </div>
+                            <div class="stat-mini-box">
+                                <span class="stat-label">Encoding Protocol</span>
+                                <span class="stat-value text-green">2-BIT DETERMINISTIC</span>
+                            </div>
+                            <div class="stat-mini-box">
+                                <span class="stat-label">Exhibition Tier</span>
+                                <span class="stat-value text-purple">SCIENCE FEST 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="environmental-context-banner" style="margin-bottom: 20px; padding: 12px; background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 8px;">
+                            <span style="display: block; font-family: 'JetBrains Mono'; font-size: 0.75rem; color: #10b981; margin-bottom: 4px;">&gt; COMPARATIVE ADVANTAGE:</span>
+                            <span style="font-size: 0.85rem; color: #94a3b8;">1 Gram of Synthetic DNA = ~215 Petabytes (Equivalent to 215,000 Terabyte Hard Drives). <br> Carbon Footprint: 0.00% post-synthesis. <br> Zero Power Requirement for Preservation.</span>
+                        </div>
+
+                        <div class="homepage-action-prompt-row">
+                            <span class="prompt-text">&gt; Ready for active molecular sequencing matrix?</span>
+                            <button class="btn btn-primary" onclick="navigateToTab('converter-view')">Launch Converter Console 🧬</button>
+                        </div>
+                    </div>
+
+                    <div class="homepage-visual-card">
+                        <div class="card-header-bar">
+                            <span class="card-title-tag">&gt; BIOMETRIC INTERACTION & HARDWARE MODEL</span>
+                        </div>
+                        <div class="homepage-dna-animation-viewport">
+                            <div class="kinetic-dna-helix-track" aria-hidden="true">
+                                <div class="kinetic-strand-pair"><span class="node-dot a"></span><div class="connector-line"></div><span class="node-dot t"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot c"></span><div class="connector-line"></div><span class="node-dot g"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot g"></span><div class="connector-line"></div><span class="node-dot c"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot t"></span><div class="connector-line"></div><span class="node-dot a"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot a"></span><div class="connector-line"></div><span class="node-dot t"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot c"></span><div class="connector-line"></div><span class="node-dot g"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot g"></span><div class="connector-line"></div><span class="node-dot c"></span></div>
+                                <div class="kinetic-strand-pair"><span class="node-dot t"></span><div class="connector-line"></div><span class="node-dot a"></span></div>
+                            </div>
+                        </div>
+                        <div class="hardware-status-rack" style="background: #010409; padding: 15px; border-top: 1px solid #1e293b;">
+                            <span style="font-family: 'JetBrains Mono'; font-size: 0.75rem; color: #06b6d4; display: block; margin-bottom: 8px;">&gt; CRYO-STORAGE ARRAY STATUS</span>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: #94a3b8; margin-bottom: 4px;">
+                                <span>Vial Node Alpha:</span>
+                                <span style="color: #10b981;">STABLE (4.1°C)</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; font-size: 0.8rem; color: #94a3b8;">
+                                <span>Synthesis Fluidics:</span>
+                                <span style="color: #10b981;">PRESSURIZED</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="converter-view" class="view-panel" role="tabpanel">
+                <div class="control-grid-layout">
+                    
+                    <div class="console-card-container input-block">
+                        <div class="card-header-bar">
+                            <span class="card-title-tag">&gt; MOLECULAR INGESTION FRAME</span>
+                            <span class="card-status-pill">STANDBY</span>
+                        </div>
+                        <div class="card-content-body">
+                            <label class="input-field-label-text" for="converter-input-field">Enter Alphanumeric Payload Text String for Structural Synthesis:</label>
+                            <textarea id="converter-input-field" class="premium-text-area" placeholder="Type data payload string here (e.g., GEN-DRIVE)..." oninput="handleLiveCharacterCounter()"></textarea>
+                            
+                            <div class="preset-chips-container">
+                                <span class="preset-label">Quick Inputs:</span>
+                                <span class="preset-chip" onclick="loadPresetDemoText('SYNTHETIC DNA')">SYNTHETIC DNA</span>
+                                <span class="preset-chip" onclick="loadPresetDemoText('GEN-DRIVE')">GEN-DRIVE</span>
+                                <span class="preset-chip" onclick="loadPresetDemoText('SCIENCE')">SCIENCE</span>
+                            </div>
+
+                            <div class="character-tracker-row">
+                                <span>Tracking Matrix Length:</span>
+                                <span class="counter-highlight"><span id="live-char-count">0</span> Characters</span>
+                            </div>
+                            
+                            <div class="action-buttons-flex-row">
+                                <button class="btn btn-primary" onclick="processLocalTranslationPipeline()" title="Run deterministic translation algorithm">⚡ Compute Sequence</button>
+                                <button class="btn btn-secondary" onclick="wipeConverterWorkspace()" title="Clear memory buffers">🗑️ Clear System</button>
+                                <button id="btn-analyze" class="btn btn-accent" onclick="bridgeContextToAIEngine()" disabled title="Send sequence to Genesis AI for analysis">🌐 Analyze Context</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="console-card-container terminal-block">
+                        <div class="card-header-bar">
+                            <span class="card-title-tag">&gt; COGNITIVE TRANSLATION RUNTIME</span>
+                            <span class="card-status-pill live">ACTIVE LOG</span>
+                        </div>
+                        <div id="local-converter-terminal-body" class="terminal-display-window" aria-live="polite">
+                            </div>
+                    </div>
+
+                </div>
+
+                <div id="molecular-synthesis-drawer" class="console-card-container visualizer-drawer element-hidden">
+                    <div class="card-header-bar" style="justify-content: space-between;">
+                        <div>
+                            <span class="card-title-tag">⚗️ SILICON DIOXIDE ENCAPSULATION & SEQUENCE MATRIX</span>
+                            <span class="card-status-pill fluorescent">COMPOUND READY</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="card-content-body" style="background: #010409; padding: 20px;">
+                        <div class="matrix-diagnostics" style="display: flex; gap: 24px; margin-bottom: 20px; font-family: 'JetBrains Mono'; font-size: 0.85rem; color: #94a3b8; border-bottom: 1px solid #1e293b; padding-bottom: 15px;">
+                            <div><span style="color: #06b6d4;">ENCAPSULATION:</span> Silicon Dioxide (SiO2)</div>
+                            <div><span style="color: #06b6d4;">Suggested pH:</span> 8.4 </div>
+                            <div><span style="color: #06b6d4;">DEGRADATION HALF-LIFE:</span> > CENTURIES </div>
+                        </div>
+                        
+                        <span style="font-family: 'JetBrains Mono'; font-size: 0.75rem; color: #475569; display: block; margin-bottom: 10px;">> MOLECULAR CHUNK RENDER (READOUT):</span>
+                        <div id="sequence-matrix-grid" style="display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono'; color: #10b981; font-weight: 700; font-size: 1.1rem; line-height: 1.6;">
+                            <span id="fallback-matrix-text">Awaiting Translation Output...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ai-view" class="view-panel" role="tabpanel">
+                <div class="ai-workspace-wrapper">
+                    
+                    <div class="console-card-container security-card">
+                        <div class="card-content-body layout-flex-horizontal">
+                            <div class="security-label-group">
+                                <span class="security-title">🔒 CLOUD HANDSHAKE KEY CONFIGURATION</span>
+                                <span class="security-desc">Provide your API verification credentials to grant interface access. Secure connection required.</span>
+                            </div>
+                            <input id="gemini-api-key-input" type="password" class="premium-input-node" placeholder="Paste your API Key here..." aria-label="API Key Input">
+                        </div>
+                    </div>
+
+                    <div class="control-grid-layout ai-split-layout">
+                        <div class="console-card-container prompt-card">
+                            <div class="card-header-bar">
+                                <span class="card-title-tag">&gt; RESEARCH DISPATCH DECK</span>
+                            </div>
+                            <div class="card-content-body">
+                                <label class="input-field-label-text" for="ai-interrogation-input-field">Query GENESIS AI Cross-Examination Research Node:</label>
+                                <textarea id="ai-interrogation-input-field" class="premium-text-area prompt-input" placeholder="Ask about Class 9 syllabus connections, atomic formulas, or molecular structures..." onkeydown="interceptEnterKeyPressForAISubmission(event)"></textarea>
+                                <button class="btn btn-primary full-width-action-btn" onclick="dispatchAIQueryMatrix()">🚀 Dispatch Query Stream</button>
+                            </div>
+                        </div>
+
+                        <div class="console-card-container response-card">
+                            <div class="card-header-bar">
+                                <span class="card-title-tag">&gt; COMPILED COGNITIVE RECONSTRUCTION</span>
+                            </div>
+                            <div id="ai-assistant-terminal-stream" class="terminal-display-window ai-stream-box" aria-live="polite">
+                                <div class="terminal-initialization-prompt">&gt; GENESIS Research Terminal Standby Interface Mode Online.</div>
+                                <div class="terminal-initialization-prompt">&gt; Input authorized access parameters or query prompts to generate network links...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-view" class="view-panel" role="tabpanel">
+                <div class="about-briefing-layout">
+                    <div class="about-hero-card">
+                        <h1>ARCHIVAL BRIEF: SYNTHETIC MOLECULAR CONTENT STORAGE</h1>
+                        <p>Framework developed for the Science Fest. Exploring the physical realities of shifting digital code metrics into chemical computing layouts, crossing the boundaries between computer science and biology.</p>
+                    </div>
+
+                    <div class="accordion-item-card">
+                        <div class="accordion-header-trigger" onclick="toggleResearchExpansionCard(this.parentElement)">
+                            <span class="accordion-header-title">📋 CBSE Syllabus Matrix & Academic Integrations</span>
+                            <span class="expansion-state-indicator-toggle">+ Expand Archival Record</span>
+                        </div>
+                        <div class="accordion-hidden-collapsible-content">
+                            <div class="inner-padding-wrapper">
+                                <div class="syllabus-split-grid">
+                                    <div class="syllabus-pillar-box">
+                                        <div class="pillar-tag cyan">CLASS IX: CHAPTER 3</div>
+                                        <div class="pillar-title">Atoms and Molecules</div>
+                                        <p>Models law parameters of constant molecular proportions. Nitrogenous compounds represent precise atomic grouping weights linked via structural base pairings to create chemical storage units in exact combination ratios.</p>
+                                    </div>
+                                    <div class="syllabus-pillar-box">
+                                        <div class="pillar-tag green">CLASS IX: CHAPTER 5</div>
+                                        <div class="pillar-title">The Fundamental Unit of Life</div>
+                                        <p>Deconstructs genomic data carriers housed inside cellular nuclei structures. Translates computer science variables directly into physical models of biological nucleic acid storage strands.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item-card">
+                        <div class="accordion-header-trigger" onclick="toggleResearchExpansionCard(this.parentElement)">
+                            <span class="accordion-header-title">🛡️ Advanced Stabilization & Defensive Engineering</span>
+                            <span class="expansion-state-indicator-toggle">+ Expand Archival Record</span>
+                        </div>
+                        <div class="accordion-hidden-collapsible-content">
+                            <div class="inner-padding-wrapper">
+                                <div class="engineering-showcase-stack">
+                                    <div class="engineering-pillar-row">
+                                        <div class="pillar-sub-header">Silicon Dioxide Encapsulation (SiO<sub>2</sub>)</div>
+                                        <p class="pillar-description-text">Integrates defensive engineering frameworks including protective microscopic Silicon Dioxide Encapsulation, shielding the DNA strands from environmental degradation, moisture, and ultraviolet radiation.</p>
+                                    </div>
+                                    <div class="engineering-pillar-row">
+                                        <div class="pillar-sub-header">Alkaline Salt Matrix Buffering</div>
+                                        <p class="pillar-description-text">Maintains strict ambient pH environmental values to entirely deactivate hydrolytic breakdown risks and preserve the chemical integrity of the synthesized structural compound elements over millennia.</p>
+                                    </div>
+                                    <div class="engineering-pillar-row">
+                                        <div class="pillar-sub-header">Algorithmic Error Correction</div>
+                                        <p class="pillar-description-text">Prior to synthesis, digital files undergo parity checks to ensure that if a mutation or sequence drop occurs during readout, the original data can be perfectly reconstructed mathematically.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item-card">
+                        <div class="accordion-header-trigger" onclick="toggleResearchExpansionCard(this.parentElement)">
+                            <span class="accordion-header-title">🔬 Research Administration & Roster</span>
+                            <span class="expansion-state-indicator-toggle">+ Expand Archival Record</span>
+                        </div>
+                        <div class="accordion-hidden-collapsible-content">
+                            <div class="inner-padding-wrapper">
+                                <table class="premium-roster-table" aria-label="Roster">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Role</th>
+                                            <th scope="col">Name</th>
+                                        
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bold-highlight">Principal Researcher / Technical Lead</td>
+                                            <td>Dhruv Aggarwal (IX-A)</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-highlight">Co-Researcher / Scientific Lead</td>
+                                            <td>Ryan Ghatak (IX-A)</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td class="bold-highlight">Academic Concept Advisor</td>
+                                            <td>Ms. Reema Khosla</td>
+                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="references-view" class="view-panel" role="tabpanel">
+                <div class="console-card-container">
+                    <div class="card-header-bar">
+                        <span class="card-title-tag">📚 ACADEMIC BIBLIOGRAPHY & RECENT CITATION ARCHIVES</span>
+                        <span class="card-status-pill live">UPDATED 2026</span>
+                    </div>
+                    <div class="card-content-body">
+                        <div class="reference-cards-grid">
+                            
+                            <div class="reference-item-card">
+                                <div class="ref-meta">
+                                    <span class="ref-tag blue">CORE TEXTBOOK</span>
+                                    <span class="ref-year">CBSE Class IX</span>
+                                </div>
+                                <h3 class="ref-title">NCERT Science Textbook: Chapters 3 & 5</h3>
+                                <p class="ref-desc">Establishes the educational criteria linking the Law of Constant Proportions to structural nitrogenous nucleotide compounds and chromosomal biological core data containers.</p>
+                            </div>
+
+                            <div class="reference-item-card">
+                                <div class="ref-meta">
+                                    <span class="ref-tag green">NATURE PAPERS</span>
+                                    <span class="ref-year">EBI Research</span>
+                                </div>
+                                <h3 class="ref-title">Goldman et al. — Towards Practical, High-Capacity, Low-Maintenance Information Storage in Synthesized DNA</h3>
+                                <p class="ref-desc">A foundational blueprint exploring error-correcting code algorithms designed for mapping raw computer binary matrix files directly into biological storage structures without sequence breakdown.</p>
+                            </div>
+
+                            <div class="reference-item-card">
+                                <div class="ref-meta">
+                                    <span class="ref-tag purple">SCIENCE JOURNAL</span>
+                                    <span class="ref-year">Wyss Institute</span>
+                                </div>
+                                <h3 class="ref-title">Church et al. — Next-Generation Digital Information Storage in DNA</h3>
+                                <p class="ref-desc">Investigates modern microfluidic high-density hardware execution paths used to write and reconstruct alpha-numeric variables utilizing artificial macro-molecular arrangements.</p>
+                            </div>
+
+                            <div class="reference-item-card">
+                                <div class="ref-meta">
+                                    <span class="ref-tag" style="background: rgba(245, 158, 11, 0.1); color: #f59e0b;">INDUSTRY REPORT</span>
+                                    <span class="ref-year">Microsoft Research</span>
+                                </div>
+                                <h3 class="ref-title">Automated DNA Storage Infrastructure</h3>
+                                <p class="ref-desc">Examines the engineering challenges of automating the synthesis, encapsulation, and sequencing process to create viable DNA server racks for future cloud architecture.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="genesis-system-footer" role="contentinfo">
+            <span>SCIENCE FEST - 2026</span>
+            <span>SYSTEM RUNTIME: <span style="color: #06b6d4;">STABLE</span></span>
+            <span>ACADEMIC EVALUATION TERM 2026–2027</span>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
